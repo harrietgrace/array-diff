@@ -1,0 +1,17 @@
+{
+  "name": "array-diff",
+  "repo": "bredele/array-diff",
+  "description": "Array difference",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "leafs/array-filter": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
+}
