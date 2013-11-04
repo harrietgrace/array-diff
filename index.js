@@ -1,5 +1,5 @@
 var filter = require('filter');
-
+var index = require('indexof');
 
 /**
  * Expose 'Mod'
@@ -7,6 +7,6 @@ var filter = require('filter');
 
 module.exports = function(arr, ex){
 	return filter(arr, function(val){
-    return !~ex.indexOf(val);
+    return !~index(ex, val);
 	});
 };
