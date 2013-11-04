@@ -2,7 +2,11 @@ var filter = require('filter');
 var index = require('indexof');
 
 /**
- * Expose 'Mod'
+ * Return difference between two arrays.
+ * @param {Array} arr 
+ * @param {Array} ex array to exclude
+ * @return {Array} 
+ * @api public
  */
 
 module.exports = function(arr, ex){
