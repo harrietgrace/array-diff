@@ -9,8 +9,13 @@
 
     $ component install bredele/array-diff
 
-## API
+## Usage
 
+```js
+var diff = require('diff');
+diff(['olivier', 'bruno', 'amy'],['bruno', 'amy']);
+// ['olivier']
+```
 
 
 ## License
