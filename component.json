@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "leafs/array-filter": "*",
+    "bredele/array-filter": "*",
     "component/indexof": "*"
 
   },
