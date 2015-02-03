@@ -1,11 +1,11 @@
-var filter = require('filter');
+var filter = require('array-filter');
 var index = require('indexof');
 
 /**
  * Return difference between two arrays.
- * @param {Array} arr 
+ * @param {Array} arr
  * @param {Array} ex array to exclude
- * @return {Array} 
+ * @return {Array}
  * @api public
  */
 
